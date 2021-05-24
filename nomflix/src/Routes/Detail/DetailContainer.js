@@ -1,8 +1,8 @@
-import React from "react";
 import DetailPresenter from "./DetailPresenter";
 import { moviesApi, tvApi } from "../../api";
+import React, { Component } from "react";
 
-export default class extends React.Component {
+export default class DetailContainer extends Component {
   constructor(props) {
     super(props);
     const {
