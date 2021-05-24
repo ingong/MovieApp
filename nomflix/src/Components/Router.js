@@ -6,7 +6,7 @@ import {
   Switch,
 } from "react-router-dom";
 import Home from "../Routes/Home/HomeContainer";
-import TV from "../Routes/TV";
+import TV from "../Routes/TV/TVContainer";
 import Search from "../Routes/Search";
 import Detail from "../Routes/Detail";
 import Header from "../Components/Header";
